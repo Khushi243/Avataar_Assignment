@@ -31,3 +31,8 @@ I tried to enhance the realism of the image using pillow library, to adjust the 
 After generating a background using the StableDiffusionPipeline from the text prompt I combine the object image and background image using mask. the object image size was adjusted so that it could fit naturally in the scene.
 
 the final output is saved on the path defined by the user.
+
+**#Result**
+
+<img width="255" alt="image" src="https://github.com/user-attachments/assets/c4ce27ce-e6b8-44b9-939a-6e62c5b93003">
+
