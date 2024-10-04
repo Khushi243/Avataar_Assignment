@@ -2,12 +2,16 @@
 The task is to write an executable code that takes the location of the image and the text prompt from the command line argument and outputs a generated image.
 
 **#Execution of code**
+
 first, we need to set up the environment.
 Install all the necessary Python packages 
+
 >> pip install torch diffusers pillow opencv-python argparse
+
 The input image needs to be in a valid format (jpeg/jpg)
 the text prompt should describe the scene in a clear manner that would be used to create the background of the image.
 to run the code take the following syntax as an example //write in the terminal:
+
 >> python run.py --image ./examples/example1.jpg --text-prompt "Product in a kitchen placed on a sleek kitchen island with a dish on the left side, high resolution, kitchen has bright and warm lighting" --output ./generated.png
 
 **#Approach**
