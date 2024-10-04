@@ -15,6 +15,7 @@ to run the code take the following syntax as an example //write in the terminal:
 >> python run.py --image ./examples/example1.jpg --text-prompt "Product in a kitchen placed on a sleek kitchen island with a dish on the left side, high resolution, kitchen has bright and warm lighting" --output ./generated.png
 
 **#Approach**
+
 The task was to generate an image with the object image placed into the scene generated from a text prompt. The goal was to create a natural-looking output, and object image should be unaltered and the output should align with the text prompt.
 
 to achieve this I used Stable Diffusion as it is one of the most advanced generative models for text-to-image tasks.
